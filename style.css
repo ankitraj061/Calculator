@@ -52,3 +52,11 @@ body{
     box-shadow: none;
 
 }
+@media only screen and (max-width: 600px) {
+    .container .calculator{
+        padding: 0;
+    }
+    .calculator form input{
+        margin: 0;
+    }
+  }
